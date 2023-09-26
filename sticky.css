@@ -1,0 +1,41 @@
+*{
+    margin:1px;
+    padding:0;
+}
+html{
+    width: 100%;
+    height:100%;
+}
+header{
+    width: 100%;
+    height:100px;
+    background-color:yellowgreen;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 4rem;
+}
+.navbar{
+    width: 100%;
+    height:60px;
+    background-color:crimson;
+    padding: 5px;
+    position:sticky;
+    top: 0;
+}
+.navbar ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 15px;
+    line-height: 30px;
+    color: cornsilk;
+}
+.maincontent{
+    width: 100%;
+    padding: 10px;
+}
+footer{
+    width: 100%;
+    height:50px;
+    background-color: darkolivegreen;
+    padding: 20px;
+}
